@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.task-form {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  margin: auto;
+}
+
+#input-box {
+  background-color: #161a1d;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+#input-box > input {
+  outline: none;
+  color: grey;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#input-box:hover {
+  transition: 0.7s;
+  color: black;
+  background-color: white;
+}
+
+#btn {
+  color: #f5f3f4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e5383b;
+  border: 2px solid #e5383b;
+}
+
+.task {
+  background-color: #161a1d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 350px;
+}
+
+.task > input {
+  height: 25px;
+  width: 250px;
+  background-color: transparent;
+  outline: none;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 2px solid #e5383b;
+}
+
+i {
+  color: #b1a7a6;
+  font-size: 18px;
+}
